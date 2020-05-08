@@ -54,8 +54,8 @@
           <p class='header pt-5'>Experience</p>
             <div class="py-3">
               <div class="expmeta row">
-                  <div class="col-sm-1"><img class="mt-2"src="images/msr1.png" style="width:200%"></div>
-                  <div class="col-sm-11 pl-5">
+                  <div class="col-sm-1"><img class="expicon mt-2"src="images/msr1.png"></div>
+                  <div class="col-sm-11 expdetails">
                     <span class="expjob"><a class="tag" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank">Microsoft Research India</a></span><br>
                     <div class='pt-1'>Aug 2019 - Present</div>
                     <p>Research Intern | Managers: <a class="tag" href="https://www.microsoft.com/en-us/research/people/kalikab/" target="_blank">Dr. Kalika Bali</a>, 
@@ -71,8 +71,8 @@
 
             <div class="py-3">
               <div class="expmeta row">
-                  <div class="col-sm-1"><img class="mt-2" src="images/msr1.png" style="width:200%"></div>
-                  <div class="col-sm-11 pl-5">
+                  <div class="col-sm-1"><img class="expicon mt-2" src="images/msr1.png"></div>
+                  <div class="col-sm-11 expdetails">
                     <span class="expjob"><a class="tag" href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/" target="_blank">Microsoft Research India</a></span><br>
                     <div class='pt-1'>Jul 2018 - Dec 2018</div>
                     <p>Research Intern | Managers: <a class="tag" href="https://www.microsoft.com/en-us/research/people/navingo/" target="_blank">Dr. Navin Goyal</a>,  
@@ -94,8 +94,8 @@
               <div class="expmeta row">
                   <!-- <div class="col-md-2"><img class="pt-1" src="images/iloads.png" style="width:90%"></div>
                   <div class="col-md-10"> -->
-                  <div class="col-sm-1"><img class="mt-2" src="images/iloads.png" style="width:200%"></div>
-                  <div class="col-sm-11 pl-5">
+                  <div class="col-sm-1"><img class="expicon mt-2" src="images/iloads.png"></div>
+                  <div class="col-sm-11 expdetails">
                     <span class="expjob"> <a class="tag" href="https://www.iloads.in/" target="_blank">White Data Systems India (i-Loads), Chennai, India</a></span><br>
                     <div class='pt-1'>May 2017 - Jul 2017</div>
                     <p>Software Engineering Intern | Manager: <a class="tag" href="https://www.linkedin.com/in/gokulanj/?originalSubdomain=in" target="_blank">Mr. Gokulan Jayaram</a></p>
@@ -344,6 +344,29 @@
           min-height:100%; */
           position:sticky;
     }
+
+          .expicon {
+
+            width:200%;
+          }
+
+          .expdetails {
+            padding-left:50px;
+          }
+
+    }
+
+    @media (max-width: 768px) {
+
+          .expicon {
+
+            width:20%;
+          }
+
+          .expdetails {
+            padding-left: 2;
+          }
+
     }
 
     .bullet {
