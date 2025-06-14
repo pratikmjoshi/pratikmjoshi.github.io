@@ -368,6 +368,8 @@
 
     .expmeta {
         margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
     }
 
     .expjob {
@@ -378,7 +380,7 @@
     }
 
     .expdetails {
-        padding-left: 1rem;
+        flex: 1;
     }
 
     .papertitle {
@@ -429,9 +431,13 @@
     }
 
     .expicon {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         transition: transform 0.3s ease;
+        margin-right: 1rem;
     }
 
     .expicon:hover {
@@ -472,6 +478,10 @@
         }
         .name {
             text-align: center;
+        }
+        .expicon {
+            width: 32px;
+            height: 32px;
         }
     }
 
